@@ -1,0 +1,6 @@
+frontend/dist
+frontend/node_modules
+frontend/public/img/background-image.jpg
+backend/__pycache__
+backend/env
+backend/utils/__pycache__

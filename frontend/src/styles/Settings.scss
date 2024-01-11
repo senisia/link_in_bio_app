@@ -1,0 +1,60 @@
+.Settings {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/img/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .form-container-profile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-profile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+      
+
+    input[type="file"]::file-selector-button {
+        opacity: 0;
+        border: none;
+        padding: 0;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background-color: darkmagenta;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        border: 0px solid black;
+        transition: all 0.05s;
+        cursor: pointer;
+    }
+
+
+    button {
+        width: 200px;
+        height: 50px;
+        background-color: darkmagenta;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        border: 0px solid black;
+        transition: all 0.05s;
+        cursor: pointer;
+        &:hover {
+            border: 2px solid black;
+            box-shadow: 0px 0px 10px white;
+        }
+    }
+}

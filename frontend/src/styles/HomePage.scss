@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+
+
+.HomePage {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: static;
+    p {
+        font-family: 'Sometype Mono';
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 0px 0px 30px var(--color-scheme);
+    }
+
+}
+
+.overlay {
+    background-color: rgba(var(--color-scheme), 1);
+    filter: drop-shadow(0 0 10px var(--color-scheme));
+}
+
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0px 0px 0px var(--color-scheme);
+    }
+    50% {
+        text-shadow: 0px 0px 25px var(--color-scheme);
+    }
+}

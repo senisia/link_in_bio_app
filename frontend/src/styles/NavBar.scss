@@ -1,0 +1,28 @@
+$font-size: 25px;
+
+nav {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background-color: #ffb8b8;
+    gap: 30px;
+    transition: color 0.5s ease-in-out;
+    .inline-icons {
+        font-size: $font-size;
+        transition: color 0.5s ease-in-out;
+    }
+    .nav-items {
+        font-size: $font-size;
+        color: black;
+        text-decoration: none;
+        padding-top: 5px;
+        transition: color 0.5s ease-in-out;
+        &.active {
+            color: darkmagenta;
+        }
+
+    }
+
+}
