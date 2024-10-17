@@ -14,7 +14,7 @@ services:
   db:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: tQa7aiN25#
+      MYSQL_ROOT_PASSWORD: ur random generated pass here
       MYSQL_DATABASE: linkib_users
     volumes:
       - mysql_data:/var/lib/mysql
